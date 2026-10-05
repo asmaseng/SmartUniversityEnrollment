@@ -1,92 +1,56 @@
-# Assignment #2 — Factory Method & Abstract Factory
+# Assignment #3 — Bridge Pattern
 
 ## Topic
-Kia Cars
 
-## Part A — Factory Method
+Online Shopping System
 
-The Factory Method pattern is used to create different Kia car models.
+## Bridge Pattern
 
-### Product
-- Car
+The Bridge pattern separates the order abstraction from the payment implementation.
 
-### Concrete Products
-- KiaSportage
-- KiaK5
+### Abstraction
+- `Order`
 
-### Creator
-- CarFactory
+### Refined Abstractions
+- `OnlineOrder`
+- `SubscriptionOrder`
 
-### Concrete Creators
-- SportageFactory
-- K5Factory
+### Implementor
+- `PaymentProcessor`
 
-The factory method is `createCar()`.
-
----
-
-## Part B — Abstract Factory
-
-The Abstract Factory pattern creates families of related Kia products.
-
-### Abstract Products
-- KiaCar
-- KiaEngine
-- KiaInterior
-
-### Family 1
-Standard Kia:
-- StandardKiaCar
-- StandardKiaEngine
-- StandardKiaInterior
-
-### Family 2
-Sport Kia:
-- SportKiaCar
-- SportKiaEngine
-- SportKiaInterior
-
-### Concrete Factories
-- KiaStandardFactory
-- KiaSportFactory
+### Concrete Implementors
+- `CardPayment`
+- `KaspiPayment`
 
 ### Client
+- `Main`
 
-`KiaClient` works only with abstract factory and abstract product interfaces.
+The client can switch payment implementations without changing the order abstraction.
 
-It does not directly instantiate concrete products.
 
----
+```java
+Order onlineOrder = new OnlineOrder(cardPayment);
+Order anotherOrder = new OnlineOrder(kaspiPayment);
 
-## Clean Code Principles
+Project Structure
+src/
+├── Main.java
+├── Order.java
+├── OnlineOrder.java
+├── SubscriptionOrder.java
+├── PaymentProcessor.java
+├── CardPayment.java
+└── KaspiPayment.java
 
-### 1. Meaningful Names
-Classes and methods have names that clearly describe their purpose.
-
-### 2. Small Methods
-Methods perform one focused task.
-
-### 3. Focused Classes
-Each class has a clear responsibility.
-
-### 4. Validated Construction
-`CarConfiguration` validates required values and throws a clear exception for invalid state.
-
-### 5. No Magic Values
-Reusable values are stored in named constants.
-
----
-
-## Technologies
-
-- Java 17
-- Maven
-- IntelliJ IDEA
-
-## Git History
-
-Commit 1:
-`Implement Factory Method for Kia cars`
-
-Commit 2:
-`Add Abstract Factory for Kia car families`
+Clean Code Principles
+1. Separation of Responsibilities — orders and payments have separate responsibilities.
+2. Meaningful Names — classes and methods clearly describe their purpose.
+3. Small Classes — each class has a focused responsibility.
+4. No Duplicated Logic — payment implementations provide their own pay() logic.
+5. Extensible Design — new payment methods can be added without changing Order.
+Requirements
+- Java implementation of the Bridge pattern
+- 2 Refined Abstractions
+- 2 Concrete Implementors
+- Runtime switching of implementations
+- 5 Clean Code principles
