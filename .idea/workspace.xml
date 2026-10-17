@@ -4,45 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7b6ee72-2978-4da7-845f-3c6faff63978" name="Changes" comment="Add Abstract Factory for Kia car families">
-      <change afterPath="$PROJECT_DIR$/SDP_Assignment1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KaspiPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OnlineOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SubscriptionOrder.java" afterDir="false" />
+    <list default="true" id="f7b6ee72-2978-4da7-845f-3c6faff63978" name="Changes" comment="Implement Bridge pattern">
+      <change afterPath="$PROJECT_DIR$/src/ScheduleChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/SDP_Assignment1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/SDP_Assignment1.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/SDP_Assignment1.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/CarConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/KiaAbstractFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/KiaCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/KiaClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/KiaEngine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/KiaInterior.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/sport/KiaSportFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/sport/SportKiaCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/sport/SportKiaEngine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/sport/SportKiaInterior.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/standard/KiaStandardFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/standard/StandardKiaCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/standard/StandardKiaEngine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/standard/StandardKiaInterior.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/factorymethod/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/factorymethod/CarFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/factorymethod/K5Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/factorymethod/KiaK5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/factorymethod/KiaSportage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/factorymethod/SportageFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDP_Assignment1/CardPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDP_Assignment1/KaspiPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDP_Assignment1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDP_Assignment1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDP_Assignment1/OnlineOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDP_Assignment1/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDP_Assignment1/SubscriptionOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CardPayment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KaspiPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrerequisiteChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnrollmentFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PaymentProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SubscriptionOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnrollmentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,31 +85,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.main.executor": "Run",
-    "Gradle.Build SDP_Assignment1.executor": "Run",
-    "Gradle.SDP_Assignment1 [:com.onlineexam.sdp_assignment1.main.main()].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.SdpAssignment1Application.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build SDP_Assignment1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SDP_Assignment1 [:com.onlineexam.sdp_assignment1.main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SdpAssignment1Application.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -192,7 +172,13 @@
       <workItem from="1790589169778" duration="4000" />
       <workItem from="1790940558913" duration="36000" />
       <workItem from="1791123587289" duration="738000" />
-      <workItem from="1791176339809" duration="4788000" />
+      <workItem from="1791176339809" duration="5105000" />
+      <workItem from="1791191864094" duration="676000" />
+      <workItem from="1791204307567" duration="2000" />
+      <workItem from="1791292721616" duration="2000" />
+      <workItem from="1791364200645" duration="10000" />
+      <workItem from="1791987083631" duration="1924000" />
+      <workItem from="1792250830030" duration="2804000" />
     </task>
     <task id="LOCAL-00001" summary="SDP">
       <option name="closed" value="true" />
@@ -250,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789915943679</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implement Bridge pattern">
+      <option name="closed" value="true" />
+      <created>1791185664484</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1791185664484</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +254,8 @@
     <MESSAGE value="SDP" />
     <MESSAGE value="Implement Factory Method for Kia cars" />
     <MESSAGE value="Add Abstract Factory for Kia car families" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Abstract Factory for Kia car families" />
+    <MESSAGE value="Implement Bridge pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Bridge pattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

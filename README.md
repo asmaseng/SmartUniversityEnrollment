@@ -1,56 +1,49 @@
-# Assignment #3 — Bridge Pattern
+# Smart University Enrollment System
 
-## Topic
+## Assignment #4 — Facade Design Pattern
 
-Online Shopping System
+## Project Description
 
-## Bridge Pattern
+Smart University Enrollment System is a Java application that simplifies the process of enrolling students in university courses.
 
-The Bridge pattern separates the order abstraction from the payment implementation.
+The project demonstrates the Facade Design Pattern by providing a single interface to coordinate multiple subsystem classes.
 
-### Abstraction
-- `Order`
+## Project Structure
 
-### Refined Abstractions
-- `OnlineOrder`
-- `SubscriptionOrder`
+- `Main.java` — Client that interacts only with the Facade.
+- `EnrollmentFacade.java` — Coordinates the enrollment process.
+- `StudentService.java` — Validates student information.
+- `CourseService.java` — Manages courses and available seats.
+- `PrerequisiteChecker.java` — Checks course prerequisites.
+- `ScheduleChecker.java` — Detects schedule conflicts.
+- `EnrollmentService.java` — Manages enrollment records.
 
-### Implementor
-- `PaymentProcessor`
+## How It Works
 
-### Concrete Implementors
-- `CardPayment`
-- `KaspiPayment`
+The client uses a simple method:
 
-### Client
-- `Main`
+`enrollmentFacade.enrollStudent("S001", "CS201");`
 
-The client can switch payment implementations without changing the order abstraction.
+The Facade coordinates the following operations:
+
+1. Validate the student.
+2. Validate the course.
+3. Check duplicate enrollment.
+4. Verify prerequisites.
+5. Check schedule conflicts.
+6. Reserve an available seat.
+7. Save the enrollment.
+8. Update the student's schedule.
+
+## Clean Code Principles
+
+1. **Single Responsibility Principle:** Each subsystem has a specific responsibility.
+2. **Meaningful Names:** Classes and methods use clear, descriptive names.
+3. **Encapsulation:** Internal data is protected using private fields.
+4. **Simplified Interface:** The Facade hides subsystem complexity from the client.
+5. **Error Handling:** The application validates enrollment conditions and handles failures.
 
 
-```java
-Order onlineOrder = new OnlineOrder(cardPayment);
-Order anotherOrder = new OnlineOrder(kaspiPayment);
+## Design Pattern Benefits
 
-Project Structure
-src/
-├── Main.java
-├── Order.java
-├── OnlineOrder.java
-├── SubscriptionOrder.java
-├── PaymentProcessor.java
-├── CardPayment.java
-└── KaspiPayment.java
-
-Clean Code Principles
-1. Separation of Responsibilities — orders and payments have separate responsibilities.
-2. Meaningful Names — classes and methods clearly describe their purpose.
-3. Small Classes — each class has a focused responsibility.
-4. No Duplicated Logic — payment implementations provide their own pay() logic.
-5. Extensible Design — new payment methods can be added without changing Order.
-Requirements
-- Java implementation of the Bridge pattern
-- 2 Refined Abstractions
-- 2 Concrete Implementors
-- Runtime switching of implementations
-- 5 Clean Code principles
+The Facade Pattern reduces coupling between the client and subsystem classes, simplifies complex operations, and improves code maintainability.
