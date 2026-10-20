@@ -4,25 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7b6ee72-2978-4da7-845f-3c6faff63978" name="Changes" comment="Implement Bridge pattern">
-      <change afterPath="$PROJECT_DIR$/src/ScheduleChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+    <list default="true" id="f7b6ee72-2978-4da7-845f-3c6faff63978" name="Changes" comment="FACADE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SDP_Assignment1/CardPayment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SDP_Assignment1/KaspiPayment.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SDP_Assignment1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDP_Assignment1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SDP_Assignment1/OnlineOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SDP_Assignment1/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SDP_Assignment1/SubscriptionOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CardPayment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KaspiPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDP_Assignment1/PaymentProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnrollmentFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnrollmentFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnrollmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnrollmentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrerequisiteChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnrollmentFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PaymentProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SubscriptionOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnrollmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrerequisiteChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrerequisiteChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScheduleChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScheduleChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +170,8 @@
       <workItem from="1791292721616" duration="2000" />
       <workItem from="1791364200645" duration="10000" />
       <workItem from="1791987083631" duration="1924000" />
-      <workItem from="1792250830030" duration="2804000" />
+      <workItem from="1792250830030" duration="3568000" />
+      <workItem from="1792485495463" duration="2963000" />
     </task>
     <task id="LOCAL-00001" summary="SDP">
       <option name="closed" value="true" />
@@ -244,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791185664484</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="FACADE">
+      <option name="closed" value="true" />
+      <created>1792255328374</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1792255328374</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +256,8 @@
     <MESSAGE value="Implement Factory Method for Kia cars" />
     <MESSAGE value="Add Abstract Factory for Kia car families" />
     <MESSAGE value="Implement Bridge pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Bridge pattern" />
+    <MESSAGE value="FACADE" />
+    <option name="LAST_COMMIT_MESSAGE" value="FACADE" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

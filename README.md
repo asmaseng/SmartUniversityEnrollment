@@ -1,49 +1,57 @@
 # Smart University Enrollment System
 
-## Assignment #4 — Facade Design Pattern
-
 ## Project Description
 
-Smart University Enrollment System is a Java application that simplifies the process of enrolling students in university courses.
+This project is a simple university course enrollment system developed in Java using the **Facade Design Pattern**.
 
-The project demonstrates the Facade Design Pattern by providing a single interface to coordinate multiple subsystem classes.
+The system allows students to enroll in courses and cancel their enrollment.
+
+## Design Pattern
+
+**Facade Pattern (Structural Design Pattern)**
+
+The `EnrollmentFacade` class provides a simple interface to multiple subsystems.
+
+The `Main` class communicates only with `EnrollmentFacade`.
 
 ## Project Structure
 
-- `Main.java` — Client that interacts only with the Facade.
-- `EnrollmentFacade.java` — Coordinates the enrollment process.
-- `StudentService.java` — Validates student information.
-- `CourseService.java` — Manages courses and available seats.
-- `PrerequisiteChecker.java` — Checks course prerequisites.
-- `ScheduleChecker.java` — Detects schedule conflicts.
-- `EnrollmentService.java` — Manages enrollment records.
+```text
+src/
+├── Main.java
+├── EnrollmentFacade.java
+├── StudentService.java
+├── CourseService.java
+├── PrerequisiteChecker.java
+├── ScheduleChecker.java
+└── EnrollmentService.java
+```
 
-## How It Works
+## Classes
 
-The client uses a simple method:
+- **StudentService** — checks if a student exists.
+- **CourseService** — checks courses and manages available seats.
+- **PrerequisiteChecker** — checks course prerequisites.
+- **ScheduleChecker** — checks schedule restrictions.
+- **EnrollmentService** — manages enrollment status.
+- **EnrollmentFacade** — coordinates all subsystems.
+- **Main** — runs the application through the Facade.
 
-`enrollmentFacade.enrollStudent("S001", "CS201");`
+## Features
 
-The Facade coordinates the following operations:
-
-1. Validate the student.
-2. Validate the course.
-3. Check duplicate enrollment.
-4. Verify prerequisites.
-5. Check schedule conflicts.
-6. Reserve an available seat.
-7. Save the enrollment.
-8. Update the student's schedule.
+- Student validation
+- Course validation
+- Prerequisite checking
+- Schedule checking
+- Seat availability checking
+- Course enrollment
+- Enrollment cancellation
 
 ## Clean Code Principles
 
-1. **Single Responsibility Principle:** Each subsystem has a specific responsibility.
-2. **Meaningful Names:** Classes and methods use clear, descriptive names.
-3. **Encapsulation:** Internal data is protected using private fields.
-4. **Simplified Interface:** The Facade hides subsystem complexity from the client.
-5. **Error Handling:** The application validates enrollment conditions and handles failures.
+1. **Single Responsibility Principle** — each class has one main responsibility.
+2. **Meaningful Names** — classes and methods have descriptive names.
+3. **Encapsulation** — internal fields are private.
+4. **Small Methods** — methods perform simple tasks.
+5. **DRY (Don't Repeat Yourself)** — common enrollment steps are coordinated by the Facade.
 
-
-## Design Pattern Benefits
-
-The Facade Pattern reduces coupling between the client and subsystem classes, simplifies complex operations, and improves code maintainability.
